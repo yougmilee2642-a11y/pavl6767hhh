@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0d">
+  <meta name="description" content="AD2AD — B2B-маркетплейс рекламных возможностей в Беларуси. Смотрите свободные даты рекламных поверхностей и договаривайтесь о размещении.">
+  <title>AD2AD — Меньше простоя. Больше дохода.</title>
+  <link rel="icon" type="image/png" href="assets/ad2ad-logo.png">
+  <link rel="preload" href="assets/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header" id="top"><div class="container header-row">
+    <a class="brand" href="#top" aria-label="AD2AD — главная"><img class="brand-mark" src="assets/ad2ad-logo.png" alt="" width="48" height="48">AD2AD</a>
+    <button class="menu-toggle outline" aria-expanded="false" aria-controls="navigation">Меню</button>
+    <nav class="navigation" id="navigation" aria-label="Основная навигация"><a class="active" href="#top" aria-current="page">Главная</a><a href="#calendar">Каталог</a><a href="#partners">Партнёры</a><button class="nav-link" data-dialog="operator">Кабинет оператора</button></nav>
+    <div class="header-actions"><button class="region outline" data-dialog="region"><img src="assets/pin.svg" alt="" width="16" height="16">Минск <span aria-hidden="true">▾</span></button><a class="support outline" href="#faq" aria-label="Помощь и частые вопросы">?</a><button class="outline login" data-dialog="login">Войти</button><a class="button primary header-cta" href="#calendar">Разместить объявление</a></div>
+  </div></header>
+  <main id="main">
+    <section class="hero"><div class="container hero-layout">
+      <div class="hero-copy"><p class="eyebrow-pill">B2B-маркетплейс рекламных возможностей · РБ</p><h1>Меньше простоя.<br>Больше дохода.</h1><p class="hero-description">Смотрите свободные даты рекламных поверхностей в Минске в одном календаре и бронируйте без обзвона операторов.</p><div class="hero-actions"><a class="button primary" href="#calendar">Разместить объявление сейчас</a><a class="button outline" href="#calendar">Смотреть календарь</a></div></div>
+      <div class="preview-card card" aria-label="Пример доступности билборда"><h2>Билборд 3×6 · Минск (пример)</h2><p>Свободно на 22–28 декабря</p><div class="mini-calendar" aria-hidden="true"><i></i><i></i><i></i><i class="hold"></i><i class="hold"></i><i class="free"></i><i class="free"></i><i class="free"></i><i class="free"></i><i class="free"></i><i class="free"></i><i class="selected"></i><i class="selected"></i><i class="selected"></i></div><div class="legend"><span><i class="busy"></i>Занято</span><span><i class="free"></i>Свободно</span><span><i class="selected"></i>HOLD</span></div><a class="button primary" href="#calendar">Забронировать за минуту</a></div>
+    </div></section>
+    <section class="section alternate" id="calendar" aria-labelledby="calendar-title"><div class="container">
+      <div class="section-heading"><p class="eyebrow">КАЛЕНДАРЬ СВОБОДНЫХ ДАТ</p><h2 id="calendar-title">Проверьте, свободно ли место, и сразу договоритесь о размещении</h2><p>Выберите даты — статус обновляется у оператора. Данные ниже — пример.</p></div>
+      <div class="booking-layout"><div class="calendar-card card"><div class="calendar-heading"><h3>Декабрь 2026</h3><div class="legend"><span><i class="busy"></i>Занято</span><span><i class="free"></i>Свободно</span><span><i class="hold"></i>HOLD · 48 ч</span><span><i class="selected"></i>Ваш выбор</span></div></div><div class="weekdays" aria-hidden="true"><span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Вс</span></div><div class="calendar-grid" id="calendar-grid" role="group" aria-label="Выбор дат в декабре 2026"></div><p class="sr-only" id="calendar-feedback" aria-live="polite"></p></div>
+      <aside class="quick-deal" aria-labelledby="deal-title"><h3 id="deal-title">Быстрая сделка</h3><dl><div><dt>Поверхность</dt><dd>Билборд 3×6, Минск</dd></div><div><dt>Даты</dt><dd id="selected-dates">22–28 дек · 7 дней</dd></div><div><dt>Статус</dt><dd>Свободно</dd></div><div><dt>Цена за период</dt><dd id="selected-price">420 BYN (пример)</dd></div></dl><div class="request-action"><button class="button white" data-request="booking">Отправить заявку</button><p>Оператор подтвердит доступность дат и свяжется для согласования деталей</p></div><button class="button white-outline" data-request="hold">Удержать даты на 48 ч (HOLD)</button><p class="response-time">Оператор отвечает в течение 24 часов.</p></aside></div>
+    </div></section>
+    <section class="section" id="how-it-works"><div class="container"><div class="section-heading"><p class="eyebrow">КАК ЭТО РАБОТАЕТ</p><h2>Три шага от поиска до брони</h2></div><div class="three-columns steps"><article class="card"><span class="step-number">1</span><h3>Выберите поверхность</h3><p>Каталог и карта: билборды, экраны, indoor и другие форматы.</p></article><article class="card"><span class="step-number">2</span><h3>Проверьте даты</h3><p>Календарь показывает, что занято, свободно или на HOLD.</p></article><article class="card"><span class="step-number">3</span><h3>Забронируйте</h3><p>Удержите даты на 48 часов или оформите сделку сразу.</p></article></div></div></section>
+    <section class="section alternate" id="partners"><div class="container"><div class="section-heading"><p class="eyebrow">ДЛЯ ВЛАДЕЛЬЦЕВ ПОВЕРХНОСТЕЙ</p><h2>Простой инструмент вместо Excel и звонков</h2></div><div class="three-columns benefits"><article class="card"><span class="accent-bar"></span><h3>Бесплатный базовый календарь</h3><p>Ведите занятость сторон онлайн — без платы за календарь.</p></article><article class="card"><span class="accent-bar"></span><h3>Управление доступностью</h3><p>Открывайте и закрывайте даты, подтверждайте HOLD.</p></article><article class="card"><span class="accent-bar"></span><h3>Контроль размещений</h3><p>Видите брони и размещения в одном месте.</p></article></div></div></section>
+    <section class="section"><div class="container"><div class="section-heading"><p class="eyebrow">ПИЛОТ В МИНСКЕ</p><h2>Цифры появятся после запуска</h2><p>Блок — заглушка: подставим реальные данные пилота.</p></div><div class="three-columns stats"><div><strong>00</strong><p>операторов в каталоге</p></div><div><strong>00</strong><p>сторон с актуальной занятостью</p></div><div><strong>00</strong><p>броней и сделок</p></div></div></div></section>
+    <section class="section alternate" id="faq"><div class="container"><div class="section-heading"><p class="eyebrow">FAQ</p><h2>Частые вопросы</h2></div><div class="faq-list"><article class="card"><h3>Что такое HOLD?</h3><p>Временная бронь: даты удерживаются за вами на 48 часов, пока вы согласуете детали.</p></article><article class="card"><h3>Сколько стоит?</h3><p>Календарь для операторов бесплатный. Условия комиссии со сделок уточняются.</p></article><article class="card"><h3>Как быстро ответит оператор?</h3><p>Оператор отвечает на бронь в течение 24 часов.</p></article><article class="card"><h3>Как согласовать макет?</h3><p>Порядок и сроки согласования уточняются при оформлении сделки.</p></article></div></div></section>
+    <section class="section final-section"><div class="container"><div class="final-cta"><h2>Разместите объявление прямо сейчас</h2><p>Выберите даты в календаре и оформите сделку за пару минут.</p><a class="button white" href="#calendar">Разместить объявление</a></div></div></section>
+  </main>
+  <footer class="container site-footer"><a href="#top">AD2AD · ad2ad.by</a><p>B2B-маркетплейс рекламных возможностей в РБ</p></footer>
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><button class="dialog-close outline" aria-label="Закрыть">×</button><h2 id="dialog-title"></h2><div id="dialog-content"></div><button class="button primary dialog-done">Понятно</button></dialog>
+</body>
+</html>
